@@ -227,7 +227,7 @@ ssh opentenbase@localhost echo "SSH OK"
 opentenbase\_ctl tool can generate a template for the configuration file. You need to fill in the cluster node information in the template. After the opentenbase\_ctl tool is started, opentenbase\_ctl directory will be generated in the current user's home directory. After entering " prepare config" command, the configuration file template that can be directly modified will be generated in opentenbase\_ctl directory.
 
 * Description of each field in opentenbase\_config.ini
-```
+
 | Configuration Category | Configuration Item | Description                                                                |
 |------------------------|-------------------|----------------------------------------------------------------------------|
 | instance               | name              | Instance name, available characters: letters, numbers, underscores, e.g.: opentenbase_instance01 |
@@ -250,7 +250,6 @@ opentenbase\_ctl tool can generate a template for the configuration file. You ne
 |                        | ssh-port          | SSH port, all servers should be consistent for simpler configuration management |
 | log                    | level             | Log level for opentenbase_ctl tool execution (not the log level of opentenbase nodes) |
 
-```
 
 #### 1. Create a configuration file opentenbase\_config.ini for the instance
 ```
